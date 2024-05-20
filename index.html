@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>背景音乐控制按钮</title>
+    <script>
+        var audio = new Audio('做自己的光.mp3'); // 音乐文件路径
+        function playMusic() {
+            audio.play();
+        }
+        function pauseMusic() {
+            audio.pause();
+        }
+    </script>
+</head>
+<body>
+    <button onclick="playMusic()">播放音乐</button>
+    <button onclick="pauseMusic()">暂停音乐</button>
+</body>
+    <body style="background-color: #FFFFFF;">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WebCatX</title>
+	</head>
+	<body>
+		<h1>个人网站</h1>
+        <p>欢迎各位来到我的个人网站</p>
+        <p>制作得比较简陋，请大家原谅</p>
+        <p>请点击下方按钮跳转到我的网页</p>
+       <button onclick="window.location.href='ttlm.html'" type="button" id="add">网页</button>
+	</body>
+</html>
